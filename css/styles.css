@@ -665,11 +665,7 @@ fill: #ffffff;
 .comment-modal-field {
   position: relative;
   margin-bottom: 16px;
-}
-
-.comment-input-container {
-  position: relative;
-  width: 360px;
+    width: 360px;
   height: 336px;
 }
 
