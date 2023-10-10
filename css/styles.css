@@ -522,6 +522,63 @@ img {
   fill: #f4f4fd;
 }
 
+.footer-subscribe-container {
+  margin-left: 192px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-label {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-input {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 8px 16px;
+  color: #FFF;
+  font-size: 12px
+  line-height: 2; /* 200% */
+  letter-spacing: 0.04em;
+}
+
+.footer-form-btn {
+  display: inline-flex;
+padding: 8px 24px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+color:#ffffff;
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5; /* 150% */
+letter-spacing: 0.04em;
+width: 165px;
+height: 40px;
+border-radius: 4px;
+border: none;
+background-color: #4D5AE5;
+cursor: pointer;
+}
+
+.footer-form-btn:hover,
+.footer-form-btn:focus,
+.footer-form-btn:active {
+background-color: #404BBF;
+}
+
+.footer-btn-icon {
+  fill: #ffffff;
+}
+
 .backdrop {
   height: 100%;
   width: 100%;
