@@ -578,6 +578,7 @@ img {
 }
 
 .footer-btn-icon {
+  margin-left: 16px;
   fill: #ffffff;
 }
 
@@ -754,7 +755,7 @@ img {
   display: flex;
   margin-bottom: 24px;
 }
-.checkbox-modal-input + .checkbox-icon-field:checked {
+.checkbox-modal-input:checked + .checkbox-modal-label .checkbox-icon-field {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
