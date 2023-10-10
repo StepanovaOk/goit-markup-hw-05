@@ -543,36 +543,38 @@ img {
   border: 1px solid #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 8px 16px;
-  color: #FFF;
-  font-size: 12px
-  line-height: 2; /* 200% */
+  color: #fff;
+  background-color: transparent;
+  font-size: 12px;
+  line-height: 1.5;
   letter-spacing: 0.04em;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
 
 .footer-form-btn {
-  display: inline-flex;
-padding: 8px 24px;
-justify-content: center;
-align-items: center;
-gap: 16px;
-color:#ffffff;
-text-align: center;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5; /* 150% */
-letter-spacing: 0.04em;
-width: 165px;
-height: 40px;
-border-radius: 4px;
-border: none;
-background-color: #4D5AE5;
-cursor: pointer;
+  display: flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5; /* 150% */
+  letter-spacing: 0.04em;
+  min-width: 165px;
+  height: 40px;
+  border-radius: 4px;
+  border: none;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .footer-form-btn:hover,
 .footer-form-btn:focus,
 .footer-form-btn:active {
-background-color: #404BBF;
+  background-color: #404bbf;
 }
 
 .footer-btn-icon {
