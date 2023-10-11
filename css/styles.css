@@ -779,9 +779,10 @@ img {
   fill: transparent;
 }
 
-.checkbox-icon {
+.checkbox-icon:checked {
   fill: transparent;
-  stroke: rgba(46, 47, 66, 0.4);
+  stroke: #ffffff;
+  background-color: rgba(46, 47, 66, 0.4);
 }
 
 .checkbox-icon-link {
